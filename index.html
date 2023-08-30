@@ -1,0 +1,33 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+      
+    <h1>LinkedIn Connection Form</h1>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label>Are you in LinkedIn:</label>
+        <input type="radio" id="Yes" name="Yes or No" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="Yes or No" value="No">
+        <label for="No">No</label>
+        <br><br>
+        <input type="checkbox" id="connection" name="connection" value="yes">
+        <label for="connection">I like to create a connection with you on LinkedIn.</label>
+        <br><br>
+        <a href="mailto:yuvraj05828@gmail.com?subject=Email Subject&body=Email Body"><input type="submit" value="Submit" ></a>
+        </form>
+</body>
+</html>
